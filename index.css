@@ -1,0 +1,33 @@
+.flex-box{
+    position: relative;
+    width: 1152px;
+    height: 700px;
+    background: #370617;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+    .container {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+position: absolute;
+width: 468px;
+height: 160px;
+left: 88px;
+top: 90px;
+background: #F48C06;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;      
+}
+  
+  .block {
+    transform: translate(40px, 20px);
+    width: 78px;
+    height: 78px;
+    background: #9D0208;
+    border-radius: 4px;
+  }
+  
+
